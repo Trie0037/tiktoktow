@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* CSS Variables */
 :root {
   --cell-size: 100px;
   --mark-size: calc(var(--cell-size) * 0.9);
@@ -59,6 +60,7 @@ body {
   cursor: not-allowed;
 }
 
+/* PseudoCode */
 .cell.x::before,
 .cell.x::after,
 .cell.circle::before {
